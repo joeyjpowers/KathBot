@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "kathbot"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Discord bot created for my girlfriend's birthday"
+authors = ["Joey Powers jjpowers@purdue.edu"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
