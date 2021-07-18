@@ -4,7 +4,6 @@ import json
 import random
 
 client = discord.Client()
-
 punJson = json.loads(open('jsons/puns.json').read())
 
 def get_pun():
@@ -47,6 +46,9 @@ async def on_message(message):
 
     if msg.startswith('!buzzorwoody') or msg.startswith('!woodyorbuzz'):
         await message.channel.send(file=discord.File("pics/buzz.jpeg"))
+
+    if msg.startswith('!sad'):
+        await message.channel.send("Remember, everything will be OK cuz the Joey loves you")
 
     if msg.startswith('!happybirthday'):
         await message.channel.send("Happy 19th birthday Kath! I made this discord bot as a little gift for you, hope you like it. You can use !pun to get a random pun, !duck to get a random picture of a duck, and either !kath or !joey to get a random picture of us together. There are also some hidden commands, so try to find them!")

@@ -1,5 +1,5 @@
 # Kath Bot
-I made this discord bot as a gift for my girlfriend's 19th birthday. The bot can produce a random pun, random picture of a duck, and a random picture of my girlfriend and I together. There are also a couple other features based off of inside jokes.
+I made this discord bot as a gift for my ex-girlfriend's 19th birthday. The bot can produce a random pun, random picture of a duck, and a random picture of my ex-girlfriend and I together. There are also a couple other features based off of inside jokes.
 
 ## Features
 - !pun - get a random pun
